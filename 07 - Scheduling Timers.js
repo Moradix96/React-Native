@@ -1,12 +1,10 @@
 // 07 - Scheduling Timers
 
-//Syntax:
+// allows to run a function regularly with the interval between the runs.
+// let timerId = setInterval(func|code, delay[, arg1, arg2...])
 
-//allows to run a function regularly with the interval between the runs.
-//let timerId = setInterval(func|code, delay[, arg1, arg2...])
-
-//allows to run a function once after the interval of time.
-//let timerId = setTimeout(func|code, delay[, arg1, arg2...])
+// allows to run a function once after the interval of time.
+// let timerId = setTimeout(func|code, delay[, arg1, arg2...])
 
 // Import
 import React, {Component} from 'react';

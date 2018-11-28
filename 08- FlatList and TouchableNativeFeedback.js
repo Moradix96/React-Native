@@ -34,7 +34,9 @@ class App extends Component {
                             borderBottomWidth: 1,
                             borderColor: '#d6d7da'
                         }}>
-                            <TouchableNativeFeedback onPress={() => {this.clickHandler(item)}}>
+                            <TouchableNativeFeedback onPress={() => {
+                                this.clickHandler(item)
+                            }}>
                                 <View>
                                     <Text style={{lineHeight: 52, marginLeft: 16}}>{item.value}</Text>
                                 </View>
@@ -48,7 +50,7 @@ class App extends Component {
 
     }
 
-    clickHandler(item){
+    clickHandler(item) {
         // Delay is just for fun :)
         setTimeout(() => {
             alert(item.value + ' (' + item.key + ') is selected.');

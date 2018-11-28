@@ -65,6 +65,5 @@ const styles = StyleSheet.create({
     }
 });
 
-
 // AppRegistry
 AppRegistry.registerComponent('newreactnative', () => App);
